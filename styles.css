@@ -140,6 +140,14 @@ a {
   .table td {
    padding-bottom: 10px;
   }
+
+  .text-data {
+    text-align: end;
+  }
+
+  .text-pro {
+    text-align: center;
+  }
   
   .table td:nth-child(2), 
   .table td:nth-child(3) {
@@ -197,6 +205,3 @@ a {
     outline: none;
     font-family: inherit;
   }
-
-
-
