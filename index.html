@@ -120,5 +120,13 @@
                     </form>
             </div>
         </div>
+        <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function() {
+                if (window.performance) {
+                    var pageLoadTime = window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart;
+                    console.log('Page load time is ' + pageLoadTime + 'ms');
+                }
+            });
+        </script>
     </body>
 </html>
